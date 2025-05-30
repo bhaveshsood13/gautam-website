@@ -32,7 +32,7 @@ const Contact = () => {
         <h4 className='text-center  text-xl  p-3'>Connect with me </h4>
         <h2 className='text-center text-5xl '> Get in Touch </h2>
         <p className='leading-relaxed max-w-2xl lg:text-lg xl:text-2xl text-center mx-auto mt-5 mb-12 '>
-           I'd love to hear from you! If you have any questions, comments or concerns you would like to discuss, please use the form below.
+           I&apos;d love to hear from you! If you have any questions, comments or concerns you would like to discuss, please use the form below.
         </p>
 
         <form onSubmit={onSubmit} action="" className='max-w-2xl mx-auto'>

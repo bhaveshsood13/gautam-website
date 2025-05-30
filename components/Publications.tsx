@@ -9,7 +9,8 @@ const Publications = () => {
 
         <div className='flex flex-col lg:flex-row gap-20 my-20'>
             <div className=' grid grid-cols-1 sm:grid-cols-4  gap-6 my-10 mt-20'>
-        {serviceData.map(({icon,title, description , link},index)=>(
+        {serviceData.map(({title, description , link},index)=>(
+
                     <div key={index}  className='border border-gray-400 rounded-lg px-8 py-12  hover:bg-lime-200 hover:-translate-y-1  duration-500 hover:shadow-black'>
                         <h3 className='text-lg my-4 text-gray-700'>{title}</h3>
                         <p className='text-gray-600 text-sm lg:text-md xl:text-xl  whitespace-pre-line leading-5'>{description}</p>

@@ -1,4 +1,4 @@
-import { assets,infoList } from '@/assets/assets'
+import {infoList } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
@@ -10,7 +10,7 @@ const Education = () => {
        <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
         <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 w-full '>
 
-            {infoList.map(({icon,iconDark,logo, title, degree , description},index)=>(
+            {infoList.map(({icon,logo, title, degree , description},index)=>(
                 <li key={index} className='border-[0.5px]  border-gray-400 rounded-xl p-3 cursor-pointer hover:bg-teal-100 hover:-translate-y-1  duration-500 hover:shadow-black'>
                     <Image alt={title} src={icon} className='w-7 mt-3 pb-3'/>
                     <div className="flex flex-col sm:flex-row  items-center gap-2">
