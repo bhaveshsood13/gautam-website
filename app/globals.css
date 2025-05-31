@@ -6,9 +6,12 @@
   font-family: outfit;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-light-hover: #fcf4ff;
-
+  --color-dark-hover: #2a004a;
+  --color-dark-theme: #11001F;
   --color-banana: #fff700;
 
   --font-outfit: outfit
@@ -19,5 +22,4 @@
   --gridTemplateColumns-auto: repeat(auto-fit,minmax(200px,1fr));
 
 }
-
 

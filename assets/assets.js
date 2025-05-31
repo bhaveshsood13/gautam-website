@@ -12,7 +12,7 @@ import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
-import logo_dark from './logo_dark.png';
+import logo_dark from './logo_dark1.svg';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './profile-img.png';
@@ -41,6 +41,7 @@ import gautam_headshot from "./Gautam's+Headshot.jpg";
 import ucla_logo from "./ucla_logo.jpeg";
 import loyola_logo from "./loyola_law_school_logo.jpeg";
 import ucla_anderson_logo from "./ucla_anderson_school_of_management_logo.jpeg";
+import pepperdine_law from "./pepperdine_caruso_law_logo.jpeg";
 
 export const assets = {
     user_image,
@@ -85,7 +86,8 @@ export const assets = {
     gautam_headshot,
     ucla_logo,
     ucla_anderson_logo,
-    loyola_logo
+    loyola_logo,
+    pepperdine_law
 };
 
 export const workData = [
@@ -121,7 +123,7 @@ export const serviceData = [
 export const infoList = [
     {
       icon: assets.edu_icon,
-      iconDark: assets.code_icon_dark,
+      iconDark: assets.edu_icon_dark,
       logo: assets.ucla_logo,
       title: 'UCLA',
       degree: "Bachelor's Degree, Political Science",
@@ -129,7 +131,7 @@ export const infoList = [
     },
     {
       icon: assets.edu_icon,
-      iconDark: assets.code_icon_dark,
+      iconDark: assets.edu_icon_dark,
       logo: assets.loyola_logo,
       title: 'Loyola Law School, Los Angeles',
       degree: 'Doctor of Law – JD',
@@ -137,7 +139,7 @@ export const infoList = [
     },
     {
       icon: assets.edu_icon,
-      iconDark: assets.code_icon_dark,
+      iconDark: assets.edu_icon_dark,
       logo: assets.ucla_anderson_logo,
       title: 'UCLA Anderson School of Management',
       degree: 'Master of Business Administration - MBA, Organizational Leadership and Real Estate',

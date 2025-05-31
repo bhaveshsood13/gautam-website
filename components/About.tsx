@@ -2,7 +2,9 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
-const About = () => {
+const About = ({isDarkMode}) => {
+  console.log('isDarkMode in About:', isDarkMode);
+
   return (
     <div id='about' className='w-full px-[12%] py-10 scroll-mt-20 mb-20'>
       <h2 className='text-center text-5xl '>About Me</h2>
