@@ -28,13 +28,13 @@ const Header = ({isDarkMode}) => {
         <motion.h1 className=''
           initial={{ y: -30, opacity:0 }}
           whileInView={{ y:0, opacity:1}}
-          transition={{duration:0.8 , delay:0.7 }}
+          transition={{duration:0.8 , delay:0.9 }}
         >
           <div className='text-2xl sm:text-2xl lg:text-[40px]'>
             Assistant Professor of Law
           </div>
           <div className='flex items-center gap-2 text-3xl sm:text-3xl lg:text-[60px] mb-3'>
-            <Image src={assets.pepperdine_law} alt="Pepperdine Logo" className="h-16 sm:h-8 w-auto" />
+            <Image src={assets.pepperdine_law} alt="Pepperdine Logo" className="h-8 md:h-16 w-auto" />
             Pepperdine Caruso Law
           </div>
         </motion.h1>
@@ -43,7 +43,7 @@ const Header = ({isDarkMode}) => {
         <motion.p 
          initial={{ opacity:0 }}
          whileInView={{opacity:1}}
-         transition={{duration:1 , delay:1.3 }}
+         transition={{duration:1 , delay:1.7 }}
         
         className='max-w-4xl mx-auto '>With over 10 years of experience as a lawyer, I have successfully tried complex cases involving high-stakes criminal matters, handled a wide variety of business disputes and negotiations, real estate transactions, and business operational challenges. I have also leveraged my legal skills and knowledge to invest in and advise early stage startups, focusing on business development, product development, and corporate culture.         </motion.p>
         {/* <p>        Currently, I am an Adjunct Professor of Law at Pepperdine Caruso Law, where I teach courses on Trial Advocacy, Evidence and Criminal Procedure. I am also a Part-Time Lecturer at Chapman University School of Law where I teach Contract Drafting and Negotiations. Separate from teaching, I served as a Postdoctoral Scholar at UCLA Anderson School of Management, conducting research and advocacy on Equity, Diversity, and Inclusion (EDI) across various sectors and industries. This work has driven me to open a consultancy in the Equity, Diversity, and Inclusion space where my mission is to use my expertise and passion to promote fairness, business success, innovation, and organizational excellence. </p> */}
@@ -51,7 +51,7 @@ const Header = ({isDarkMode}) => {
         <motion.div 
           initial={{  y: 30, opacity:0 }}
           whileInView={{ y: 0 ,opacity:1}}
-          transition={{duration:1 , delay:1.3 }}
+          transition={{duration:1 , delay:1.7 }}
          
         className='flex flex-col sm:flex-row items-center gap-4 mt-4 mb-25'>
             <a href="#contactme" className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2  dark:bg-transparent  '>Contact Me <Image src={assets.right_arrow_white} alt='' className='w-4' /></a>
