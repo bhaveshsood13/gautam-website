@@ -34,7 +34,7 @@ const Header = ({isDarkMode}) => {
             Assistant Professor of Law
           </div>
           <div className='flex items-center gap-2 text-3xl sm:text-3xl lg:text-[60px] mb-3'>
-            <Image src={assets.pepperdine_law} alt="Pepperdine Logo" className="h-16 sm:h-10 w-auto" />
+            <Image src={assets.pepperdine_law} alt="Pepperdine Logo" className="h-16 sm:h-8 w-auto" />
             Pepperdine Caruso Law
           </div>
         </motion.h1>
