@@ -60,13 +60,13 @@ const Navbar = () => {
             <Image src={assets.close_black} alt='' className='w-6 cursor-pointer'/>
             </div>
             <li><a href="#top" className='font-ovo '>Home</a></li>
-            <li><a href="#About">About</a></li>
+            <li><a href="#about">About</a></li>
 
-            <li><a href="#Education">Education</a></li>
+            <li><a href="#education">Education</a></li>
 
-            <li><a href="#Publications">Publications</a></li>
+            <li><a href="#publications">Publications</a></li>
 
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
             </div>
            
 
