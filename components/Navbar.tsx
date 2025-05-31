@@ -4,7 +4,7 @@ import {assets} from '@/assets/assets'
 
 const Navbar = () => {
 
-  const sideMenuReferenceVariable = useRef <HTMLElement| null >(null); // creates a hook to reference the div element without re-rendering.
+  const sideMenuReferenceVariable = useRef <HTMLUListElement| null >(null); // creates a hook to reference the div element without re-rendering.
   const openMenu = () => {
     if (sideMenuReferenceVariable.current) {
        sideMenuReferenceVariable.current.style.transform = 'translateX(-16rem)'

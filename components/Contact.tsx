@@ -40,7 +40,7 @@ const Contact = () => {
                 <input type="text" placeholder='Enter your name'   required className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white px-5   '  name='name'/>
                 <input type="email" placeholder='Enter your email id' required className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white px-5 ' name='emailid' />
             </div>
-            <textarea rows=5 placeholder='Enter your message' required className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white px-5  mb-5' name='message'></textarea>
+            <textarea rows={5} placeholder='Enter your message' required className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white px-5  mb-5' name='message'></textarea>
             <button type='submit' className='py-1 px-5 w-max flex items-center justify-between gap-2 bg-black/85 text-white rounded-full mx-auto hover:bg-black duration-500'> Submit Now <Image alt='' className='w-4' src={assets.right_arrow_white}/></button>
         
         <p className='mt-4 text-center'>{result} </p>
