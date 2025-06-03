@@ -7,7 +7,7 @@ const Header = ({isDarkMode}) => {
   console.log('isDarkMode in About:', isDarkMode);
 
   return (
-    <div className='w-11/12 max-w-5xl text-center mx-auto pt-28 sm:pt-32 lg:pt-36 xl:h-screen flex flex-col items-center justify-center gap-4 '>
+    <div className='w-11/12 max-w-5xl text-center mx-auto pt-28 sm:pt-32 md:pt-36 lg:pt-36 xl:h-screen flex flex-col items-center justify-center gap-4 '>
 
         <motion.div
          initial={{ y: -20, opacity:0 }}
